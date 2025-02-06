@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 23px;
+}
+  .aboutmedescription {
+    font-size: 16px;
+    line-height: 1.5;
+    width: 50%;
+    text-align: center;
+    margin:auto;
+  }
+  
+  @media (min-width: 800px) {
+    .about-me {
+      flex-direction: row-reverse;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+  
+    .about-me-description {
+      max-width: 400px;
+    }
+  }
+  
+  @media (min-width: 1400px) {
+    .about-me-description {
+      max-width: 500px;
+    }
+  }
+  
